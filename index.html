@@ -4,96 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
-  <body>
-    <div class="search-navbar">
-      <img src="Flipkarthomelogo.jpeg" alt="" />
-      <input
-        type="text"
-        name="query"
-        placeholder="Search for Products,Brands and More"
-        class="search-input"
-      />
-      <a href="#">Login</a>
-      <a href="#">Cart</a>
-      <a href="#">Become a Seller</a>
-      <img src="threedotmenu.jpeg" alt="" class="threedotmenu" />
-    </div>
+  <body class="bg-slate-100">
+    <div>
+      <div class="flex justify-start bg-white items-center">
+        <img
+          src="./Images/Flipkarthomelogo.jpeg"
+          alt="fliphomelogo"
+          class="h-20 ml-14 mr-10"
+        />
 
-    <div class="products-main">
-      <div class="products-bar">
-        <div class="products">
-          <a href="#"><img src="grocery.png" alt="" /></a>
-          <p>Grocery</p>
+        <div class="flex h-12 w-2/5 items-center bg-slate-100 rounded-lg mr-5">
+          <img src="./Images/search.svg" alt="search" class="h-8 ml-3" />
+          <input
+            type="text"
+            placeholder="Search for Products, Brands and More"
+            class="w-2/3 indent-3 bg-slate-100 font-medium text-lg focus:outline-none border-transparent focus:border-transparent"
+          />
         </div>
-        <div class="products">
-          <a href="#"> <img src="mobiles.png" alt="" /></a>
-          <p>Mobiles</p>
-        </div>
-        <div class="products">
-          <a href="#"><img src="fashion.png" alt="" /></a>
-          <p>Fashion</p>
-        </div>
-        <div class="products">
-          <a href="#"><img src="electronics.png" alt="" /></a>
-          <p>Electronics</p>
-        </div>
-        <div class="products">
-          <a href="#"><img src="home&furniture.png" alt="" /></a>
-          <p>Home & Furniture</p>
-        </div>
-        <div class="products">
-          <a href="#"><img src="home&appliances.png" alt="" /></a>
-          <p>Appliances</p>
-        </div>
-        <div class="products">
-          <a href="#"><img src="travel.png" alt="" /></a>
-          <p>Travel</p>
-        </div>
-        <div class="products">
-          <a href="#"><img src="beauty&toy.png" alt="" /></a>
-          <p>Beauty, Toys & More</p>
-        </div>
-        <div class="products">
-          <a href="#"><img src="twowheelers.png" alt="" /></a>
-          <p>Two Wheelers</p>
+
+        <div class="flex gap-8">
+          <div
+            class="flex gap-2 hover:bg-blue-600 p-2 rounded-lg hover:text-white"
+          >
+            <img src="./Images/login.svg" alt="login" class="" />
+            <button class="">Login</button>
+            <img src="./Images/expandmore.svg" alt="" />
+          </div>
+
+          <div class="flex gap-2">
+            <img src="./Images/cart.svg" alt="cart" />
+            <button class="">Cart</button>
+          </div>
+
+          <div class="flex gap-2">
+            <img src="./Images/store.svg" alt="store" />
+            <button class="w-36">Become a Seller</button>
+          </div>
+          <img src="./Images//menubar.svg" alt="menubar" />
         </div>
       </div>
-    </div>
 
-    <div class="electronics-product-main">
-      <div class="electro-product-cont">
-        <div class="electro-products">
-          <a href="#"><img src="monitors.png" alt="" /></a>
-          <p>Monitors</p>
-          <p><b>From 7989</b></p>
-        </div>
-
-        <div class="electro-products">
-          <a href="#"><img src="sandisk.png" alt="" /></a>
-          <p>MemoryCard-Sandisk</p>
-          <p><b>From 989</b></p>
-        </div>
-
-        <div class="electro-products">
-          <a href="#"><img src="sellingsecurity.png" alt="" /></a>
-          <p>Best Selling Security</p>
-          <p><b>From 29</b></p>
-        </div>
-
-        <div class="electro-products">
-          <a href="#"><img src="trimmers.png" alt="" /></a>
-          <p>Trimmers</p>
-          <p><b>From 500</b></p>
-        </div>
-
-        <div class="electro-products">
-          <a href="#"><img src="printers.png" alt="" /></a>
-          <p>Printers</p>
-          <p><b>From 6879</b></p>
-        </div>
-      </div>
+      <div></div>
     </div>
   </body>
 </html>
